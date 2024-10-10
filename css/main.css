@@ -1175,7 +1175,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #dbffff;
+  background: #75ffff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2676,6 +2676,12 @@ pre {
   font-size: 24px;
   color: #fff;
   animation: bounce 2s infinite;
+}
+.content {
+  margin-top: 100vh;
+}
+.sidebar {
+  margin-top: 100vh;
 }
 @-moz-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
